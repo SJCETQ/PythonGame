@@ -32,7 +32,7 @@ paddle_b.shapesize(stretch_wid=5, stretch_len=1)
 paddle_b.penup()
 paddle_b.goto(350, 0)
 
-# Ball
+# Ball style
 ball = turtle.Turtle()
 ball.speed(0)
 ball.shape("circle")
@@ -42,7 +42,7 @@ ball.goto(0, 0)
 ball.dx = 2
 ball.dy = 2
 
-# Pen
+# Pen design
 pen = turtle.Turtle()
 pen.speed(0)
 pen.shape("square")
@@ -53,7 +53,7 @@ pen.goto(0, 260)
 pen.write("Player A: 0  Player B: 0", align="center", font=("Courier", 30, "normal"))
 
 
-# Functions
+# Main Functions
 def paddle_a_up():
     y = paddle_a.ycor()
     y += 20
